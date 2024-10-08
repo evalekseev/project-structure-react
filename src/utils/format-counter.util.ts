@@ -1,0 +1,1 @@
+export const formatCounter = (count: number) => count + ' > @'

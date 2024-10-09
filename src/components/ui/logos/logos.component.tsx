@@ -1,6 +1,5 @@
 import reactLogo from './static/images/react.svg'
 import viteLogo from './static/images/vite.svg'
-import './static/styles/App.css'
 
 export const Logos = () => {
     return (

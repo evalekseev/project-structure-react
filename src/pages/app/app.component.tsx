@@ -3,12 +3,14 @@ import { Logos } from '../../components/ui/logos'
 import { Button } from '../../components/ui/button'
 import { Counter } from '../../components/entities/counter'
 import { AppProps } from './app.types'
+import { CustomList } from '../../components/entities/custom-list'
+import { CustomListTheme } from '../../components/entities/custom-list/custom-list.constants'
 
 export const App: React.FC<AppProps> = ({ title }) => {
-
     return (
         <>
             <Logos />
+            <CustomList theme={CustomListTheme.Dark} />
             <h1>{title}</h1>
             <div className="card">
                 <Counter />
